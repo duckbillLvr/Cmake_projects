@@ -1,0 +1,2 @@
+cmake 툴을 이용한 다중 프로젝트 사용
+대체<-visaul studio
