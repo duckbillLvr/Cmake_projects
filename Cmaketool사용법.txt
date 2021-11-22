@@ -1,0 +1,6 @@
+CMake - 헤더파일존재 프로젝트 컴파일
+.vscode안의
+1. json파일등을 복붙
+2. CMakeLists.txt 파일 복붙
+3. ctrl+alt+c 컴파일 -> ctrl+alt+r 실행
+(바로가기키 설정시)
