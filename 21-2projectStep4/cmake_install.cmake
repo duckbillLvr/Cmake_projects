@@ -1,8 +1,8 @@
-# Install script for directory: C:/Git/Cmake_project/21-2projectStep4
+# Install script for directory: C:/Git/Cmake_project/21-2ProjectStep4
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/21-2projectStep4")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/21-2ProjectStep4")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Git/Cmake_project/21-2projectStep4/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Git/Cmake_project/21-2ProjectStep4/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,3 +1,3 @@
-C:/Git/Cmake_project/21-2projectStep4/CMakeFiles/21-2projectStep4.dir
-C:/Git/Cmake_project/21-2projectStep4/CMakeFiles/edit_cache.dir
-C:/Git/Cmake_project/21-2projectStep4/CMakeFiles/rebuild_cache.dir
+C:/Git/Cmake_project/21-2ProjectStep4/CMakeFiles/21-2ProjectStep4.dir
+C:/Git/Cmake_project/21-2ProjectStep4/CMakeFiles/edit_cache.dir
+C:/Git/Cmake_project/21-2ProjectStep4/CMakeFiles/rebuild_cache.dir

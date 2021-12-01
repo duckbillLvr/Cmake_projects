@@ -1,6 +1,7 @@
-CMakeFiles/21-2projectStep4.dir/insert.c.obj: \
- C:\Git\Cmake_project\21-2projectStep4\insert.c \
- C:/mingw64/x86_64-w64-mingw32/include/stdio.h \
+CMakeFiles/21-2ProjectStep4.dir/insert.c.obj: \
+ C:\Git\Cmake_project\21-2ProjectStep4\insert.c \
+ C:\Git\Cmake_project\21-2ProjectStep4\my_func.h \
+ C:/mingw64/x86_64-w64-mingw32/include/string.h \
  C:/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
  C:/mingw64/x86_64-w64-mingw32/include/_mingw.h \
  C:/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
@@ -8,6 +9,8 @@ CMakeFiles/21-2projectStep4.dir/insert.c.obj: \
  C:/mingw64/x86_64-w64-mingw32/include/vadefs.h \
  C:/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
  C:/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+ C:/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
+ C:/mingw64/x86_64-w64-mingw32/include/stdio.h \
  C:/mingw64/x86_64-w64-mingw32/include/_mingw_print_push.h \
  C:/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
  C:/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
@@ -19,8 +22,5 @@ CMakeFiles/21-2projectStep4.dir/insert.c.obj: \
  C:/mingw64/x86_64-w64-mingw32/include/limits.h \
  C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
  C:/mingw64/x86_64-w64-mingw32/include/malloc.h \
- C:/mingw64/x86_64-w64-mingw32/include/string.h \
- C:/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
- C:\Git\Cmake_project\21-2projectStep4\my_struct.h \
- C:\Git\Cmake_project\21-2projectStep4\my_define.h \
- C:\Git\Cmake_project\21-2projectStep4\my_func.h
+ C:\Git\Cmake_project\21-2ProjectStep4\my_struct.h \
+ C:\Git\Cmake_project\21-2ProjectStep4\my_define.h

@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Git\Cmake_project\21-2projectStep4
+CMAKE_SOURCE_DIR = C:\Git\Cmake_project\21-2ProjectStep4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Git\Cmake_project\21-2projectStep4
+CMAKE_BINARY_DIR = C:\Git\Cmake_project\21-2ProjectStep4
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Git\Cmake_project\21-2projectStep4\CMakeFiles C:\Git\Cmake_project\21-2projectStep4\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Git\Cmake_project\21-2ProjectStep4\CMakeFiles C:\Git\Cmake_project\21-2ProjectStep4\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Git\Cmake_project\21-2projectStep4\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Git\Cmake_project\21-2ProjectStep4\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -116,24 +116,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 21-2projectStep4
+# Target rules for targets named 21-2ProjectStep4
 
 # Build rule for target.
-21-2projectStep4: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 21-2projectStep4
-.PHONY : 21-2projectStep4
+21-2ProjectStep4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 21-2ProjectStep4
+.PHONY : 21-2ProjectStep4
 
 # fast build rule for target.
-21-2projectStep4/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\21-2projectStep4.dir\build.make CMakeFiles/21-2projectStep4.dir/build
-.PHONY : 21-2projectStep4/fast
+21-2ProjectStep4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\21-2ProjectStep4.dir\build.make CMakeFiles/21-2ProjectStep4.dir/build
+.PHONY : 21-2ProjectStep4/fast
 
 delete.obj: delete.c.obj
 .PHONY : delete.obj
 
 # target to build an object file
 delete.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\21-2projectStep4.dir\build.make CMakeFiles/21-2projectStep4.dir/delete.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\21-2ProjectStep4.dir\build.make CMakeFiles/21-2ProjectStep4.dir/delete.c.obj
 .PHONY : delete.c.obj
 
 delete.i: delete.c.i
@@ -141,7 +141,7 @@ delete.i: delete.c.i
 
 # target to preprocess a source file
 delete.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\21-2projectStep4.dir\build.make CMakeFiles/21-2projectStep4.dir/delete.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\21-2ProjectStep4.dir\build.make CMakeFiles/21-2ProjectStep4.dir/delete.c.i
 .PHONY : delete.c.i
 
 delete.s: delete.c.s
@@ -149,39 +149,15 @@ delete.s: delete.c.s
 
 # target to generate assembly for a file
 delete.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\21-2projectStep4.dir\build.make CMakeFiles/21-2projectStep4.dir/delete.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\21-2ProjectStep4.dir\build.make CMakeFiles/21-2ProjectStep4.dir/delete.c.s
 .PHONY : delete.c.s
-
-fileControl.obj: fileControl.c.obj
-.PHONY : fileControl.obj
-
-# target to build an object file
-fileControl.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\21-2projectStep4.dir\build.make CMakeFiles/21-2projectStep4.dir/fileControl.c.obj
-.PHONY : fileControl.c.obj
-
-fileControl.i: fileControl.c.i
-.PHONY : fileControl.i
-
-# target to preprocess a source file
-fileControl.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\21-2projectStep4.dir\build.make CMakeFiles/21-2projectStep4.dir/fileControl.c.i
-.PHONY : fileControl.c.i
-
-fileControl.s: fileControl.c.s
-.PHONY : fileControl.s
-
-# target to generate assembly for a file
-fileControl.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\21-2projectStep4.dir\build.make CMakeFiles/21-2projectStep4.dir/fileControl.c.s
-.PHONY : fileControl.c.s
 
 insert.obj: insert.c.obj
 .PHONY : insert.obj
 
 # target to build an object file
 insert.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\21-2projectStep4.dir\build.make CMakeFiles/21-2projectStep4.dir/insert.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\21-2ProjectStep4.dir\build.make CMakeFiles/21-2ProjectStep4.dir/insert.c.obj
 .PHONY : insert.c.obj
 
 insert.i: insert.c.i
@@ -189,7 +165,7 @@ insert.i: insert.c.i
 
 # target to preprocess a source file
 insert.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\21-2projectStep4.dir\build.make CMakeFiles/21-2projectStep4.dir/insert.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\21-2ProjectStep4.dir\build.make CMakeFiles/21-2ProjectStep4.dir/insert.c.i
 .PHONY : insert.c.i
 
 insert.s: insert.c.s
@@ -197,7 +173,7 @@ insert.s: insert.c.s
 
 # target to generate assembly for a file
 insert.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\21-2projectStep4.dir\build.make CMakeFiles/21-2projectStep4.dir/insert.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\21-2ProjectStep4.dir\build.make CMakeFiles/21-2ProjectStep4.dir/insert.c.s
 .PHONY : insert.c.s
 
 main.obj: main.c.obj
@@ -205,7 +181,7 @@ main.obj: main.c.obj
 
 # target to build an object file
 main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\21-2projectStep4.dir\build.make CMakeFiles/21-2projectStep4.dir/main.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\21-2ProjectStep4.dir\build.make CMakeFiles/21-2ProjectStep4.dir/main.c.obj
 .PHONY : main.c.obj
 
 main.i: main.c.i
@@ -213,7 +189,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\21-2projectStep4.dir\build.make CMakeFiles/21-2projectStep4.dir/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\21-2ProjectStep4.dir\build.make CMakeFiles/21-2ProjectStep4.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -221,32 +197,128 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\21-2projectStep4.dir\build.make CMakeFiles/21-2projectStep4.dir/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\21-2ProjectStep4.dir\build.make CMakeFiles/21-2ProjectStep4.dir/main.c.s
 .PHONY : main.c.s
 
-print.obj: print.c.obj
-.PHONY : print.obj
+readFile.obj: readFile.c.obj
+.PHONY : readFile.obj
 
 # target to build an object file
-print.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\21-2projectStep4.dir\build.make CMakeFiles/21-2projectStep4.dir/print.c.obj
-.PHONY : print.c.obj
+readFile.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\21-2ProjectStep4.dir\build.make CMakeFiles/21-2ProjectStep4.dir/readFile.c.obj
+.PHONY : readFile.c.obj
 
-print.i: print.c.i
-.PHONY : print.i
+readFile.i: readFile.c.i
+.PHONY : readFile.i
 
 # target to preprocess a source file
-print.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\21-2projectStep4.dir\build.make CMakeFiles/21-2projectStep4.dir/print.c.i
-.PHONY : print.c.i
+readFile.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\21-2ProjectStep4.dir\build.make CMakeFiles/21-2ProjectStep4.dir/readFile.c.i
+.PHONY : readFile.c.i
 
-print.s: print.c.s
-.PHONY : print.s
+readFile.s: readFile.c.s
+.PHONY : readFile.s
 
 # target to generate assembly for a file
-print.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\21-2projectStep4.dir\build.make CMakeFiles/21-2projectStep4.dir/print.c.s
-.PHONY : print.c.s
+readFile.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\21-2ProjectStep4.dir\build.make CMakeFiles/21-2ProjectStep4.dir/readFile.c.s
+.PHONY : readFile.c.s
+
+search.obj: search.c.obj
+.PHONY : search.obj
+
+# target to build an object file
+search.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\21-2ProjectStep4.dir\build.make CMakeFiles/21-2ProjectStep4.dir/search.c.obj
+.PHONY : search.c.obj
+
+search.i: search.c.i
+.PHONY : search.i
+
+# target to preprocess a source file
+search.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\21-2ProjectStep4.dir\build.make CMakeFiles/21-2ProjectStep4.dir/search.c.i
+.PHONY : search.c.i
+
+search.s: search.c.s
+.PHONY : search.s
+
+# target to generate assembly for a file
+search.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\21-2ProjectStep4.dir\build.make CMakeFiles/21-2ProjectStep4.dir/search.c.s
+.PHONY : search.c.s
+
+showAll.obj: showAll.c.obj
+.PHONY : showAll.obj
+
+# target to build an object file
+showAll.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\21-2ProjectStep4.dir\build.make CMakeFiles/21-2ProjectStep4.dir/showAll.c.obj
+.PHONY : showAll.c.obj
+
+showAll.i: showAll.c.i
+.PHONY : showAll.i
+
+# target to preprocess a source file
+showAll.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\21-2ProjectStep4.dir\build.make CMakeFiles/21-2ProjectStep4.dir/showAll.c.i
+.PHONY : showAll.c.i
+
+showAll.s: showAll.c.s
+.PHONY : showAll.s
+
+# target to generate assembly for a file
+showAll.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\21-2ProjectStep4.dir\build.make CMakeFiles/21-2ProjectStep4.dir/showAll.c.s
+.PHONY : showAll.c.s
+
+sort.obj: sort.c.obj
+.PHONY : sort.obj
+
+# target to build an object file
+sort.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\21-2ProjectStep4.dir\build.make CMakeFiles/21-2ProjectStep4.dir/sort.c.obj
+.PHONY : sort.c.obj
+
+sort.i: sort.c.i
+.PHONY : sort.i
+
+# target to preprocess a source file
+sort.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\21-2ProjectStep4.dir\build.make CMakeFiles/21-2ProjectStep4.dir/sort.c.i
+.PHONY : sort.c.i
+
+sort.s: sort.c.s
+.PHONY : sort.s
+
+# target to generate assembly for a file
+sort.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\21-2ProjectStep4.dir\build.make CMakeFiles/21-2ProjectStep4.dir/sort.c.s
+.PHONY : sort.c.s
+
+writeFile.obj: writeFile.c.obj
+.PHONY : writeFile.obj
+
+# target to build an object file
+writeFile.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\21-2ProjectStep4.dir\build.make CMakeFiles/21-2ProjectStep4.dir/writeFile.c.obj
+.PHONY : writeFile.c.obj
+
+writeFile.i: writeFile.c.i
+.PHONY : writeFile.i
+
+# target to preprocess a source file
+writeFile.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\21-2ProjectStep4.dir\build.make CMakeFiles/21-2ProjectStep4.dir/writeFile.c.i
+.PHONY : writeFile.c.i
+
+writeFile.s: writeFile.c.s
+.PHONY : writeFile.s
+
+# target to generate assembly for a file
+writeFile.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\21-2ProjectStep4.dir\build.make CMakeFiles/21-2ProjectStep4.dir/writeFile.c.s
+.PHONY : writeFile.c.s
 
 # Help Target
 help:
@@ -256,22 +328,31 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... 21-2projectStep4
+	@echo ... 21-2ProjectStep4
 	@echo ... delete.obj
 	@echo ... delete.i
 	@echo ... delete.s
-	@echo ... fileControl.obj
-	@echo ... fileControl.i
-	@echo ... fileControl.s
 	@echo ... insert.obj
 	@echo ... insert.i
 	@echo ... insert.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... print.obj
-	@echo ... print.i
-	@echo ... print.s
+	@echo ... readFile.obj
+	@echo ... readFile.i
+	@echo ... readFile.s
+	@echo ... search.obj
+	@echo ... search.i
+	@echo ... search.s
+	@echo ... showAll.obj
+	@echo ... showAll.i
+	@echo ... showAll.s
+	@echo ... sort.obj
+	@echo ... sort.i
+	@echo ... sort.s
+	@echo ... writeFile.obj
+	@echo ... writeFile.i
+	@echo ... writeFile.s
 .PHONY : help
 
 

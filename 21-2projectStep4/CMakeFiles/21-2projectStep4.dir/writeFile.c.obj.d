@@ -1,5 +1,5 @@
-CMakeFiles/21-2ProjectStep4.dir/delete.c.obj: \
- C:\Git\Cmake_project\21-2ProjectStep4\delete.c \
+CMakeFiles/21-2ProjectStep4.dir/writeFile.c.obj: \
+ C:\Git\Cmake_project\21-2ProjectStep4\writeFile.c \
  C:\Git\Cmake_project\21-2ProjectStep4\my_func.h \
  C:/mingw64/x86_64-w64-mingw32/include/string.h \
  C:/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
