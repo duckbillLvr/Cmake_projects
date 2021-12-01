@@ -7,7 +7,7 @@
     "tasks": [
           //C++ 컴파일
         {
-            "label": "compile for C++",
+            "label": "compile for C/C++",
             "command": "cd ${fileDirname} && cmake . -G \"MinGW Makefiles\" && mingw32-make",
             "group": "build",
 

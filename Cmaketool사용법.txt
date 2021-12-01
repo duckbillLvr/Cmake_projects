@@ -1,6 +1,90 @@
-CMake - í—¤ë”íŒŒì¼ì¡´ìž¬ í”„ë¡œì íŠ¸ ì»´íŒŒì¼
-.vscodeì•ˆì˜
-1. jsoníŒŒì¼ë“±ì„ ë³µë¶™
-2. CMakeLists.txt íŒŒì¼ ë³µë¶™
-3. ctrl+alt+c ì»´íŒŒì¼ -> ctrl+alt+r ì‹¤í–‰
-(ë°”ë¡œê°€ê¸°í‚¤ ì„¤ì •ì‹œ)
+1) Set "tasks.json"
+{
+    "version": "2.0.0",
+    "runner": "terminal",
+    "type": "shell",
+    "echoCommand": true,
+    "presentation" : { "reveal": "always" },
+    "tasks": [
+          //C++ ÄÄÆÄÀÏ
+        {
+            "label": "compile for C/C++",
+            "command": "cd ${fileDirname} && cmake . -G \"MinGW Makefiles\" && mingw32-make",
+            "group": "build",
+
+            //ÄÄÆÄÀÏ½Ã ¿¡·¯¸¦ ÆíÁý±â¿¡ ¹Ý¿µ
+            //Âü°í:   https://code.visualstudio.com/docs/editor/tasks#_defining-a-problem-matcher
+
+            "problemMatcher": {
+                "fileLocation": [
+                    "relative",
+                    "${workspaceRoot}"
+                ],
+                "pattern": {
+                    // The regular expression. 
+                   //Example to match: helloWorld.c:5:3: warning: implicit declaration of function 'prinft'
+                    "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning error):\\s+(.*)$",
+                    "file": 1,
+                    "line": 2,
+                    "column": 3,
+                    "severity": 4,
+                    "message": 5
+                }
+            }
+        },
+        // ¹ÙÀÌ³Ê¸® ½ÇÇà(Windows)
+        {
+            "label": "execute",
+            "command": "cmd",
+            "group": "test",
+            "args": [
+                "/C", "${fileDirname}\\${fileDirnameBasename}"
+            ]
+        }
+    ]
+}
+
+2) build "CMakeLists.txt" in buiding folder
+- C language
+cmake_minimum_required(VERSION 3.0)
+
+get_filename_component(ProjectId ${CMAKE_CURRENT_SOURCE_DIR} NAME)
+string(REPLACE " " "_" ProjectId ${ProjectId})
+project(${ProjectId})
+
+set (CMAKE_CXX_STANDARD 11)
+
+file(GLOB SOURCES  *.c)
+
+add_executable(${PROJECT_NAME} ${SOURCES} )
+
+- C++ language
+cmake_minimum_required(VERSION 3.0)
+
+get_filename_component(ProjectId ${CMAKE_CURRENT_SOURCE_DIR} NAME)
+string(REPLACE " " "_" ProjectId ${ProjectId})
+project(${ProjectId})
+
+set (CMAKE_CXX_STANDARD 11)
+
+file(GLOB SOURCES  *.cpp)
+
+add_executable(${PROJECT_NAME} ${SOURCES} )
+
+3) To make "cmake_install.cmake"file type "cmake CMakeLists.txt"in console(location: where is CMakeLists.txt file located)
+4) type "dir" in console to check "cmake_install.cmake"file installed
+5) If you set hotkey Skip
+set Hotkey json file
+// Place your key bindings in this file to override the defaults
+// ¾Æ·¡ Å° ¹ÙÀÎµùÀ» ÆÄÀÏ¿¡ ³Ö¾î¼­ ±âº»°ªÀ» µ¤¾î ¾¹´Ï´Ù.
+[
+    //ÄÄÆÄÀÏ
+    { "key": "ctrl+alt+c", "command": "workbench.action.tasks.build" },
+    
+    //½ÇÇà
+    { "key": "ctrl+alt+r", "command": "workbench.action.tasks.test" }
+]
+
+6) build launch file ctrl+alt+c to build file
+7) if your file builded successly ctrl+alt+r to start launch file
+8) done.
